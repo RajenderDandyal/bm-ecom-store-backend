@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password@21",
+    "database": "bmes",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": 3306,
+    "operatorsAliases": false
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "./bmesnoderestapi.db"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./bmesnoderestapi.db"
+  }
+}
